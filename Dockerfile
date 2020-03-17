@@ -1,3 +1,7 @@
+# Note: This Dockerfile is based on https://hub.docker.com/r/bde2020/hive-metastore-postgresql
+# The following changes have been made:
+#
+
 FROM postgres:9.5.3
 
 MAINTAINER "Guido Schmutz <guido.schmutz@trivadis.com>"
