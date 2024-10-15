@@ -4,6 +4,9 @@
 
 FROM postgres:9.5.3
 
+ENV HIVE_USER=hive
+ENV HIVE_PASSWORD=hive
+
 MAINTAINER "Guido Schmutz <guido.schmutz@trivadis.com>"
 
 COPY hive-schema-2.3.0.postgres.sql /hive/hive-schema-2.3.0.postgres.sql
