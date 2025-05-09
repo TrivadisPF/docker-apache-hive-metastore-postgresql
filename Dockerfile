@@ -1,4 +1,4 @@
-FROM postgres:16
+FROM postgres:17
 
 MAINTAINER "Guido Schmutz <guido.schmutz@trivadis.com>"
 
