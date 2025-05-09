@@ -2,7 +2,7 @@
 # The following changes have been made:
 #
 
-FROM postgres:9.5.3
+FROM postgres:17
 
 ENV HIVE_USER=hive
 ENV HIVE_PASSWORD=hive
